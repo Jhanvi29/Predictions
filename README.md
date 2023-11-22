@@ -18,9 +18,10 @@ If you want to run the app, use
 streamlit run app.py
 ```
 The app is hosted on streamlit and the webservices used are render. 
-In order to use docker containeriszation, the image is hosted in the docker hub use 
+In order to use docker containeriszation, the image is hosted in the docker hub. In order to use it install docker desktop and run the commands from command line
 ```
 docker pull jha29/jhanvi
 docker run -p 8501:8501 jha29/jhanvi
 Open local host URL: http://0.0.0.0:8501
 ```
+
